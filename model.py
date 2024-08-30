@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
+from collections.abc import Mapping
 
 dataset = pd.read_csv('hiring.csv')
 
